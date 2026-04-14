@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordly | Vocabulary Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Space Grotesk', sans-serif; background-color: #f5f5f7; color: #1a1a1a; scroll-behavior: smooth; }
+        .hero-visual-bg { background-color: #0d0d0d; border-radius: 40px; overflow: hidden; position: relative; }
+        .pill-btn { border: 1px solid #d1d5db; border-radius: 9999px; padding: 10px 24px; font-weight: 500; transition: all 0.3s ease; cursor: pointer; display: inline-block; }
+        
+        /* Acceptance Criteria Colors */
+        .color-not-in-set { background-color: #A9A9A9; color: white; }
+        .color-wrong-place { background-color: #b8860b; color: white; } /* Dark Yellow/Gold */
+        .color-right-place { background-color: #16c60c; color: white; }
+
+        .word-grid-cell { width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; border: 2px solid #e5e7eb; font-weight: 700; border-radius: 4px; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="w-full py-6 px-12 flex items-center justify-between border-b border-gray-200 bg-white sticky top-0 z-50">
+        <div class="flex items-center gap-2 text-2xl font-bold"><span class="text-3xl">☕</span> Wordly</div>
+        <div class="flex items-center gap-8 text-sm font-medium">
+            <a href="#hero" class="hover:text-green-600">Home</a>
+            <a href="#how-to-play" class="hover:text-green-600">Instructions</a>
+            <a href="download.html" class="pill-btn bg-gray-900 text-white border-none hover:bg-gray-700">Get App</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="py-12 px-6 md:px-16 lg:px-24">
+        <div class="grid lg:grid-cols-12 items-start gap-12">
+            <div class="lg:col-span-6 flex flex-col gap-6 pt-16">
+                <span class="text-sm uppercase tracking-widest text-gray-500 font-semibold">• Vocabulary Practice Tool</span>
+                <h1 class="text-6xl md:text-7xl font-bold leading-tight">Master your <br><span class="text-green-600">Vocabulary</span></h1>
+                <div class="flex items-center gap-4 mt-8">
+                    <a href="download.html" class="pill-btn bg-black text-white px-10 py-4">Download Now</a>
+                    <a href="#how-to-play" class="pill-btn hover:border-black">How it Works</a>
+                </div>
+            </div>
+            <div class="lg:col-span-6 hero-visual-bg p-12 flex items-center justify-center min-h-[400px]">
+                <div class="grid grid-cols-5 gap-2">
+                    <div class="word-grid-cell color-wrong-place">C</div>
+                    <div class="word-grid-cell color-not-in-set">R</div>
+                    <div class="word-grid-cell color-right-place">A</div>
+                    <div class="word-grid-cell color-not-in-set">N</div>
+                    <div class="word-grid-cell color-wrong-place">E</div>
+                    <script>for(let i=0; i<5; i++) document.write('<div class="word-grid-cell border-gray-700 text-gray-500">X</div>');</script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-to-play" class="py-24 px-6 md:px-16 lg:px-24 bg-white border-y border-gray-200">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold mb-8">How to Play</h2>
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="bg-gray-50 p-8 rounded-[40px] border border-gray-100">
+                    <p class="text-[10px] font-bold text-gray-400 mb-4 uppercase tracking-widest">(7 ATTEMPT TEMPLATE)</p>
+                    <div class="grid grid-cols-5 gap-2 w-fit mb-8">
+                        <script>for(let i=0; i<35; i++) document.write('<div class="word-grid-cell text-gray-300">X</div>');</script>
+                    </div>
+                    <p class="text-[10px] font-bold text-gray-400 mb-4 uppercase tracking-widest">(EXAMPLE GUESS)</p>
+                    <div class="flex gap-2 font-bold">
+                        <div class="word-grid-cell color-wrong-place">C</div>
+                        <div class="word-grid-cell color-not-in-set">R</div>
+                        <div class="word-grid-cell color-right-place">A</div>
+                        <div class="word-grid-cell color-not-in-set">N</div>
+                        <div class="word-grid-cell color-wrong-place">E</div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <h3 class="font-bold text-2xl border-b pb-4 italic">The Key</h3>
+                    <div class="flex items-center gap-4"><div class="w-12 h-12 color-right-place rounded-lg"></div> <p><b>#16c60c :</b> Right place</p></div>
+                    <div class="flex items-center gap-4"><div class="w-12 h-12 color-wrong-place rounded-lg"></div> <p><b>#b8860b :</b> Wrong place (Dark Yellow)</p></div>
+                    <div class="flex items-center gap-4"><div class="w-12 h-12 color-not-in-set rounded-lg"></div> <p><b>#A9A9A9 :</b> Not in set</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-24 bg-black text-white text-center">
+        <h2 class="text-4xl font-bold mb-10">Start your practice session.</h2>
+        <a href="download.html" class="pill-btn bg-green-500 text-black border-none px-12 py-5 font-bold text-xl hover:bg-green-400 transition-transform hover:scale-105">Download v1.0</a>
+    </footer>
+
+</body>
+</html>

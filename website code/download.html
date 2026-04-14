@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Wordly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Space Grotesk', sans-serif; background-color: #0a0a0a; color: white; }
+        .pill-btn { border-radius: 9999px; padding: 10px 24px; font-weight: 500; transition: all 0.3s ease; cursor: pointer; display: inline-block; }
+        .dropdown-menu { display: none; position: absolute; background: #111; min-width: 240px; border-radius: 12px; border: 1px solid #333; margin-top: 10px; left: 50%; transform: translateX(-50%); z-index: 100; }
+        .show { display: block; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center px-6">
+
+    <div class="max-w-md w-full bg-neutral-900 border border-neutral-800 p-16 rounded-[60px] text-center shadow-2xl relative">
+        <a href="index.html" class="absolute top-10 left-10 text-neutral-500 hover:text-white transition">← Return</a>
+        
+        <div class="text-7xl mb-8">📦</div>
+        <h1 class="text-3xl font-bold mb-3">Get Wordly</h1>
+        <p class="text-neutral-500 mb-10">Select your operating system to download the secure installer.</p>
+        
+        <div class="relative">
+            <button onclick="toggleMenu()" class="pill-btn bg-white text-black px-12 py-4 w-full font-bold text-lg border-none hover:bg-neutral-200 transition">
+                Choose Version ▼
+            </button>
+            <div id="drop-content" class="dropdown-menu">
+                <a href="#" class="block px-6 py-4 border-b border-neutral-800 hover:bg-neutral-800">🪟 Windows (.exe)</a>
+                <a href="#" class="block px-6 py-4 border-b border-neutral-800 hover:bg-neutral-800">🍎 macOS (.dmg)</a>
+                <a href="#" class="block px-6 py-4 border-b border-neutral-800 hover:bg-neutral-800">🐧 Linux (.tar.gz)</a>
+                <a href="#" class="block px-6 py-4 text-green-400 font-bold hover:bg-neutral-800">☕ Java JAR</a>
+            </div>
+        </div>
+        <p class="mt-14 text-[9px] text-neutral-600 uppercase tracking-[0.2em]">Open Source & Ad Free</p>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('drop-content').classList.toggle('show');
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.pill-btn')) {
+                const drop = document.getElementById("drop-content");
+                if (drop && drop.classList.contains('show')) drop.classList.remove('show');
+            }
+        }
+    </script>
+</body>
+</html>
