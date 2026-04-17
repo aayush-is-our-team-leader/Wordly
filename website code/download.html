@@ -66,3 +66,71 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Wordly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Space Grotesk', sans-serif; background-color: #0a0a0a; color: white; }
+        .pill-btn { border-radius: 9999px; padding: 10px 24px; font-weight: 500; cursor: pointer; display: inline-block; transition: all 0.3s ease; }
+        .dropdown-menu { display: none; position: absolute; background: #111; min-width: 260px; border-radius: 12px; border: 1px solid #333; margin-top: 10px; left: 50%; transform: translateX(-50%); z-index: 100; overflow: hidden; }
+        .show { display: block; }
+        .dropdown-item { display: block; padding: 16px 24px; border-bottom: 1px solid #222; transition: background 0.2s; }
+        .dropdown-item:hover { background: #1a1a1a; }
+        .dropdown-item:last-child { border-bottom: none; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center px-6">
+
+    <div class="max-w-md w-full bg-neutral-900 border border-neutral-800 p-16 rounded-[60px] text-center shadow-2xl relative">
+        <a href="index.html" class="absolute top-10 left-10 text-neutral-500 hover:text-white transition">← Return</a>
+        
+        <div class="text-7xl mb-8">📦</div>
+        <h1 class="text-3xl font-bold mb-3">Get Wordly</h1>
+        <p class="text-neutral-500 mb-10">Select your operating system.</p>
+        
+        <div class="relative">
+            <button onclick="toggleMenu()" class="pill-btn bg-white text-black px-12 py-4 w-full font-bold text-lg border-none hover:bg-neutral-200">
+                Choose OS ▼
+            </button>
+            <div id="drop-content" class="dropdown-menu">
+                <a href="SampleApp-Installer(macos).dmg" download class="dropdown-item">
+                    <span class="flex justify-between items-center">🍎 macOS <span>.dmg</span></span>
+                </a>
+                
+                <a href="Wordly.jar" download class="dropdown-item text-green-400 font-bold">
+                    <span class="flex justify-between items-center">🐧 Linux / Java <span>.jar</span></span>
+                </a>
+            </div>
+        </div>
+        <p class="mt-14 text-[9px] text-neutral-600 uppercase tracking-[0.2em]">Open Source v1.0</p>
+    </div>
+
+    <div class="absolute bottom-4 right-8">
+        <p class="text-[9px] text-neutral-800 uppercase tracking-widest">
+            Made with help of AI
+        </p>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('drop-content').classList.toggle('show');
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.pill-btn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-menu");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
