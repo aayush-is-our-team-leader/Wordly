@@ -24,7 +24,7 @@ public class Main extends JFrame {
     // ------------------------------------------------------------------ //
     //  CONSTANTS                                                           //
     // ------------------------------------------------------------------ //
-    private static final int MAX_ATTEMPTS = 6;
+    private static final int MAX_ATTEMPTS = 7;
     private static final int WORD_LENGTH  = 5;
 
     // Fallback words when WORDS file is missing
