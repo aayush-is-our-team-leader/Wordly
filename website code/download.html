@@ -14,11 +14,15 @@
         .dropdown-item { display: block; padding: 16px 24px; border-bottom: 1px solid #222; transition: background 0.2s; }
         .dropdown-item:hover { background: #1a1a1a; }
         .dropdown-item:last-child { border-bottom: none; }
+        
+        /* New Styles for the Info Section */
+        details summary::-webkit-details-marker { display:none; }
+        details summary { list-style: none; outline: none; cursor: pointer; }
     </style>
 </head>
 <body class="min-h-screen flex flex-col items-center justify-center px-6">
 
-    <div class="max-w-md w-full bg-neutral-900 border border-neutral-800 p-16 rounded-[60px] text-center shadow-2xl relative">
+    <div class="max-w-md w-full bg-neutral-900 border border-neutral-800 p-12 rounded-[60px] text-center shadow-2xl relative">
         <a href="index.html" class="absolute top-10 left-10 text-neutral-500 hover:text-white transition">← Return</a>
         
         <div class="text-7xl mb-8">📦</div>
@@ -33,21 +37,34 @@
                 <a href="Wordly-1.0.msi" download class="dropdown-item">
                     <span class="flex justify-between items-center">🪟 Windows <span>.msi</span></span>
                 </a>
-
                 <a href="Wordly-1.0.dmg" download class="dropdown-item">
                     <span class="flex justify-between items-center">🍎 macOS <span>.dmg</span></span>
                 </a>
-                
                 <a href="Wordly-1.0.deb" download class="dropdown-item text-green-400 font-bold">
                     <span class="flex justify-between items-center">🐧 Linux / Java <span>.deb</span></span>
                 </a>
             </div>
         </div>
-        <p class="mt-14 text-[9px] text-neutral-600 uppercase tracking-[0.2em]">Open Source v1.0</p>
+
+        <div class="mt-10 pt-6 border-t border-neutral-800">
+            <details class="group">
+                <summary class="text-xs text-neutral-500 hover:text-neutral-300 transition-all flex items-center justify-center gap-2">
+                    <span>Installation giving you trouble?</span>
+                    <span class="group-open:rotate-180 transition-transform">↓</span>
+                </summary>
+                <div class="text-left mt-4 text-[11px] text-neutral-400 space-y-3 leading-relaxed bg-black/30 p-4 rounded-2xl border border-neutral-800/50">
+                    <p><strong class="text-white">Windows:</strong> If blocked by policy, right-click file > Properties > check "Unblock" at bottom.</p>
+                    <p><strong class="text-white">macOS:</strong> If "unidentified," Right-Click the app icon and select "Open" instead of double-clicking.</p>
+                    <p><strong class="text-white">Linux:</strong> Install via terminal: <code class="text-green-500">sudo dpkg -i Wordly-1.0.deb</code></p>
+                </div>
+            </details>
+        </div>
+
+        <p class="mt-10 text-[9px] text-neutral-600 uppercase tracking-[0.2em]">Open Source v1.0</p>
     </div>
 
     <div class="absolute bottom-4 right-8">
-        <p class="text-[9px] text-neutral-800 uppercase tracking-widest">
+        <p class="text-[9px] text-neutral-800 uppercase tracking-widest font-medium">
             Made with help of AI
         </p>
     </div>
