@@ -7,7 +7,7 @@
 // Why use an interface here?
 // Because in tests we want a FAKE dictionary (no real API calls).
 // In the real game we want the REAL PyDictionary API.
-// Both implement this same interface, so the game code doesn't
+// Both implement this same interface, so the game code doesn't 
 // need to know which one it's talking to.
 //
 // This pattern is called "Dependency Injection" and it's exactly
