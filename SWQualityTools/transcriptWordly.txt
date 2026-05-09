@@ -1,298 +1,298 @@
-Buildfile: /home/geeg/SWQualityTools/build.xml
+Buildfile: /home/geeg/Wordly/SWQualityTools/build.xml
 
 clean:
-   [delete] Deleting directory /home/geeg/SWQualityTools/build
-   [delete] Deleting directory /home/geeg/SWQualityTools/dist
-   [delete] Deleting directory /home/geeg/SWQualityTools/doc
-   [delete] Deleting directory /home/geeg/SWQualityTools/results
+   [delete] Deleting directory /home/geeg/Wordly/SWQualityTools/build
+   [delete] Deleting directory /home/geeg/Wordly/SWQualityTools/dist
+   [delete] Deleting directory /home/geeg/Wordly/SWQualityTools/doc
+   [delete] Deleting directory /home/geeg/Wordly/SWQualityTools/results
 
 BUILD SUCCESSFUL
-Total time: 1 second
-Buildfile: /home/geeg/SWQualityTools/build.xml
+Total time: 2 seconds
+Buildfile: /home/geeg/Wordly/SWQualityTools/build.xml
 
 clean:
 
 init:
-    [mkdir] Created dir: /home/geeg/SWQualityTools/build
-    [mkdir] Created dir: /home/geeg/SWQualityTools/build/classes
-    [mkdir] Created dir: /home/geeg/SWQualityTools/dist
-    [mkdir] Created dir: /home/geeg/SWQualityTools/doc
-    [mkdir] Created dir: /home/geeg/SWQualityTools/results
+    [mkdir] Created dir: /home/geeg/Wordly/SWQualityTools/build
+    [mkdir] Created dir: /home/geeg/Wordly/SWQualityTools/build/classes
+    [mkdir] Created dir: /home/geeg/Wordly/SWQualityTools/dist
+    [mkdir] Created dir: /home/geeg/Wordly/SWQualityTools/doc
+    [mkdir] Created dir: /home/geeg/Wordly/SWQualityTools/results
 
 compile:
-    [javac] Compiling 5 source files to /home/geeg/SWQualityTools/build/classes
+    [javac] Compiling 5 source files to /home/geeg/Wordly/SWQualityTools/build/classes
 
 dist:
      [echo] Generating Distribution
-      [jar] Building jar: /home/geeg/SWQualityTools/dist/SampleProj20260430.jar
+      [jar] Building jar: /home/geeg/Wordly/SWQualityTools/dist/SampleProj20260509.jar
 
 doc:
      [echo] Creating API Documentation
   [javadoc] Generating Javadoc
   [javadoc] Javadoc execution
-  [javadoc] Loading source file /home/geeg/SWQualityTools/src/DictionaryService.java...
-  [javadoc] Loading source file /home/geeg/SWQualityTools/src/MockDictionaryService.java...
-  [javadoc] Loading source file /home/geeg/SWQualityTools/src/Wordly.java...
-  [javadoc] Loading source file /home/geeg/SWQualityTools/src/WordyGame.java...
-  [javadoc] Loading source file /home/geeg/SWQualityTools/src/WordyGameTest.java...
+  [javadoc] Loading source file /home/geeg/Wordly/SWQualityTools/src/DictionaryService.java...
+  [javadoc] Loading source file /home/geeg/Wordly/SWQualityTools/src/MockDictionaryService.java...
+  [javadoc] Loading source file /home/geeg/Wordly/SWQualityTools/src/Wordly.java...
+  [javadoc] Loading source file /home/geeg/Wordly/SWQualityTools/src/WordyGame.java...
+  [javadoc] Loading source file /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java...
   [javadoc] Constructing Javadoc information...
   [javadoc] Building index for all the packages and classes...
   [javadoc] Standard Doclet version 21.0.10+7-Ubuntu-124.04
   [javadoc] Building tree for all the packages and classes...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/DictionaryService.html...
-  [javadoc] /home/geeg/SWQualityTools/src/DictionaryService.java:24: warning: no comment
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/DictionaryService.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/DictionaryService.java:24: warning: no comment
   [javadoc] public interface DictionaryService {
   [javadoc]        ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/MockDictionaryService.html...
-  [javadoc] /home/geeg/SWQualityTools/src/MockDictionaryService.java:82: warning: no @param for word
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/MockDictionaryService.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/MockDictionaryService.java:82: warning: no @param for word
   [javadoc]     public void addValidWord(String word) {
   [javadoc]                 ^
-  [javadoc] /home/geeg/SWQualityTools/src/MockDictionaryService.java:94: warning: no @param for word
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/MockDictionaryService.java:94: warning: no @param for word
   [javadoc]     public void removeValidWord(String word) {
   [javadoc]                 ^
-  [javadoc] /home/geeg/SWQualityTools/src/MockDictionaryService.java:25: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/MockDictionaryService.java:25: warning: no comment
   [javadoc] public class MockDictionaryService implements DictionaryService {
   [javadoc]        ^
-  [javadoc] /home/geeg/SWQualityTools/src/MockDictionaryService.java:29: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/MockDictionaryService.java:29: warning: no comment
   [javadoc]     private final Set<String> validWords = new HashSet<>();
   [javadoc]                               ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/Wordly.html...
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:5: warning: no comment
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/Wordly.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:5: warning: no comment
   [javadoc] public class Wordly {
   [javadoc]        ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:6: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:6: warning: no comment
   [javadoc]     private static final int MAX_ATTEMPTS = 7;
   [javadoc]                              ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:7: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:7: warning: no comment
   [javadoc]     private static final int WORD_LENGTH = 5;
   [javadoc]                              ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:5: warning: use of default constructor, which does not provide a comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:5: warning: use of default constructor, which does not provide a comment
   [javadoc] public class Wordly {
   [javadoc]        ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:165: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:165: warning: no comment
   [javadoc]     private static int countCorrectLetters(String secret, String guess) {
   [javadoc]                        ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:129: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:129: warning: no comment
   [javadoc]     private static String getFeedback(String secret, String guess) {
   [javadoc]                           ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:113: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:113: warning: no comment
   [javadoc]     private static String getNewWord(List<String> wordBank, String previousWord, Random random) {
   [javadoc]                           ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:177: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:177: warning: no comment
   [javadoc]     private static String getPerformanceFeedback(int correctCount) {
   [javadoc]                           ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:93: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:93: warning: no comment
   [javadoc]     private static List<String> loadWords(String fileName) {
   [javadoc]                                 ^
-  [javadoc] /home/geeg/SWQualityTools/src/Wordly.java:9: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/Wordly.java:9: warning: no comment
   [javadoc]     public static void main(String[] args) {
   [javadoc]                        ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/WordyGame.html...
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:104: warning: no @param for dictionaryService
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/WordyGame.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:104: warning: no @param for dictionaryService
   [javadoc]     public WordyGame(DictionaryService dictionaryService) {
   [javadoc]            ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:115: warning: no @param for guess
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:115: warning: no @param for guess
   [javadoc]     public String normalizeGuess(String guess) {
   [javadoc]                   ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:115: warning: no @return
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:115: warning: no @return
   [javadoc]     public String normalizeGuess(String guess) {
   [javadoc]                   ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:126: warning: no @param for guess
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:126: warning: no @param for guess
   [javadoc]     public boolean isValidLength(String guess) {
   [javadoc]                    ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:126: warning: no @return
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:126: warning: no @return
   [javadoc]     public boolean isValidLength(String guess) {
   [javadoc]                    ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:143: warning: no @param for guess
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:143: warning: no @param for guess
   [javadoc]     public boolean isValidWord(String guess) {
   [javadoc]                    ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:143: warning: no @return
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:143: warning: no @return
   [javadoc]     public boolean isValidWord(String guess) {
   [javadoc]                    ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:154: warning: no @param for guess
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:154: warning: no @param for guess
   [javadoc]     public boolean isValidCharacters(String guess) {
   [javadoc]                    ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:154: warning: no @return
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:154: warning: no @return
   [javadoc]     public boolean isValidCharacters(String guess) {
   [javadoc]                    ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:167: warning: no @return
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:167: warning: no @return
   [javadoc]     public String getNewWord(String previousWord) {
   [javadoc]                   ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:186: warning: no @param for guess
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:186: warning: no @param for guess
   [javadoc]     public LetterResult[] evaluateGuess(String guess, String target) {
   [javadoc]                           ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:186: warning: no @param for target
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:186: warning: no @param for target
   [javadoc]     public LetterResult[] evaluateGuess(String guess, String target) {
   [javadoc]                           ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:186: warning: no @return
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:186: warning: no @return
   [javadoc]     public LetterResult[] evaluateGuess(String guess, String target) {
   [javadoc]                           ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:229: warning: no @param for guess
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:229: warning: no @param for guess
   [javadoc]     public ValidationResult validateGuess(String guess) {
   [javadoc]                             ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:229: warning: no @return
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:229: warning: no @return
   [javadoc]     public ValidationResult validateGuess(String guess) {
   [javadoc]                             ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:25: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:25: warning: no comment
   [javadoc] public class WordyGame {
   [javadoc]        ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:39: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:39: warning: no comment
   [javadoc]     public static class LetterResult {
   [javadoc]                   ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:30: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:30: warning: no comment
   [javadoc]     public enum Status {
   [javadoc]            ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:52: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:52: warning: no comment
   [javadoc]     public static class ValidationResult {
   [javadoc]                   ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:73: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:73: warning: no comment
   [javadoc]     private final DictionaryService dictionaryService;
   [javadoc]                                     ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:76: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:76: warning: no comment
   [javadoc]     private final Random random = new Random();
   [javadoc]                          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:65: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:65: warning: no comment
   [javadoc]     private static final Pattern VALID_CHARS_PATTERN =
   [javadoc]                                  ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:67: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:67: warning: no comment
   [javadoc]     private static final int WORD_LENGTH = 5;
   [javadoc]                              ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:82: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:82: warning: no comment
   [javadoc]     private static final List<String> WORD_POOL = Arrays.asList(
   [javadoc]                                       ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/WordyGame.LetterResult.html...
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:40: warning: no comment
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/WordyGame.LetterResult.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:40: warning: no comment
   [javadoc]         public final char letter;
   [javadoc]                           ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:41: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:41: warning: no comment
   [javadoc]         public Status status;
   [javadoc]                       ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:43: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:43: warning: no comment
   [javadoc]         public LetterResult(char letter, Status status) {
   [javadoc]                ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/WordyGame.Status.html...
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:33: warning: no comment
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/WordyGame.Status.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:33: warning: no comment
   [javadoc]         ABSENT    // letter not in target word at all (gray tile)
   [javadoc]         ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:31: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:31: warning: no comment
   [javadoc]         CORRECT,  // right letter, right position (green tile)
   [javadoc]         ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:32: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:32: warning: no comment
   [javadoc]         PRESENT,  // right letter, wrong position (yellow tile)
   [javadoc]         ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/WordyGame.ValidationResult.html...
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:54: warning: no comment
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/WordyGame.ValidationResult.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:54: warning: no comment
   [javadoc]         public final String error;
   [javadoc]                             ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:53: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:53: warning: no comment
   [javadoc]         public final boolean valid;
   [javadoc]                              ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGame.java:56: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGame.java:56: warning: no comment
   [javadoc]         public ValidationResult(boolean valid, String error) {
   [javadoc]                ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/WordyGameTest.html...
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:28: warning: no comment
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/WordyGameTest.html...
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:28: warning: no comment
   [javadoc] public class WordyGameTest {
   [javadoc]        ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:30: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:30: warning: no comment
   [javadoc]     private WordyGame game;
   [javadoc]                       ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:31: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:31: warning: no comment
   [javadoc]     private MockDictionaryService mockDictionary;
   [javadoc]                                   ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:28: warning: use of default constructor, which does not provide a comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:28: warning: use of default constructor, which does not provide a comment
   [javadoc] public class WordyGameTest {
   [javadoc]        ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:37: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:37: warning: no comment
   [javadoc]     void setUp() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:205: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:205: warning: no comment
   [javadoc]     void testEvaluateGuess_correctLetterCorrectPosition() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:212: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:212: warning: no comment
   [javadoc]     void testEvaluateGuess_correctLetterWrongPosition() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:233: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:233: warning: no comment
   [javadoc]     void testEvaluateGuess_eachResultHasLetterAndStatus() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:219: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:219: warning: no comment
   [javadoc]     void testEvaluateGuess_letterNotInTarget() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:226: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:226: warning: no comment
   [javadoc]     void testEvaluateGuess_returnsFiveResults() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:184: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:184: warning: no comment
   [javadoc]     void testGetNewWord_doesNotRepeatPreviousWord() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:192: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:192: warning: no comment
   [javadoc]     void testGetNewWord_returnedWordIsValidAccordingToMock() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:177: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:177: warning: no comment
   [javadoc]     void testGetNewWord_returnsFiveLetterWord() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:149: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:149: warning: no comment
   [javadoc]     void testIsValidCharacters_alphabeticalWordReturnsTrue() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:155: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:155: warning: no comment
   [javadoc]     void testIsValidCharacters_numberInGuessReturnsFalse() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:167: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:167: warning: no comment
   [javadoc]     void testIsValidCharacters_spaceInGuessReturnsFalse() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:161: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:161: warning: no comment
   [javadoc]     void testIsValidCharacters_specialCharInGuessReturnsFalse() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:95: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:95: warning: no comment
   [javadoc]     void testIsValidLength_emptyStringReturnsFalse() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:77: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:77: warning: no comment
   [javadoc]     void testIsValidLength_fiveLetterWordReturnsTrue() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:89: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:89: warning: no comment
   [javadoc]     void testIsValidLength_tooLongReturnsFalse() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:83: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:83: warning: no comment
   [javadoc]     void testIsValidLength_tooShortReturnsFalse() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:124: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:124: warning: no comment
   [javadoc]     void testIsValidWord_caseInsensitiveCheckViaMock() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:118: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:118: warning: no comment
   [javadoc]     void testIsValidWord_madeUpWordReturnsFalseViaMock() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:111: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:111: warning: no comment
   [javadoc]     void testIsValidWord_realWordReturnsTrueViaMock() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:130: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:130: warning: no comment
   [javadoc]     void testIsValidWord_wordAddedDynamicallyToMock() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:138: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:138: warning: no comment
   [javadoc]     void testIsValidWord_wordRemovedFromMockIsInvalid() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:67: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:67: warning: no comment
   [javadoc]     void testNormalizeGuess_alreadyLowercaseUnchanged() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:61: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:61: warning: no comment
   [javadoc]     void testNormalizeGuess_mixedCaseConvertsToLowercase() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:55: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:55: warning: no comment
   [javadoc]     void testNormalizeGuess_uppercaseConvertsToLowercase() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:256: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:256: warning: no comment
   [javadoc]     void testValidateGuess_numberRejectedBeforeAPICall() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:272: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:272: warning: no comment
   [javadoc]     void testValidateGuess_unknownWordRejectedByMockAPI() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:248: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:248: warning: no comment
   [javadoc]     void testValidateGuess_validWordPassesAllChecks() {
   [javadoc]          ^
-  [javadoc] /home/geeg/SWQualityTools/src/WordyGameTest.java:264: warning: no comment
+  [javadoc] /home/geeg/Wordly/SWQualityTools/src/WordyGameTest.java:264: warning: no comment
   [javadoc]     void testValidateGuess_wrongLengthRejectedBeforeAPICall() {
   [javadoc]          ^
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/package-summary.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/package-tree.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/constant-values.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/package-summary.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/package-tree.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/constant-values.html...
   [javadoc] Generating src-html/DictionaryService.html...
   [javadoc] Generating src-html/MockDictionaryService.html...
   [javadoc] Generating src-html/Wordly.html...
@@ -301,29 +301,29 @@ doc:
   [javadoc] Generating src-html/WordyGame.LetterResult.html...
   [javadoc] Generating src-html/WordyGame.Status.html...
   [javadoc] Generating src-html/WordyGameTest.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/DictionaryService.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/MockDictionaryService.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/Wordly.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/WordyGame.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/WordyGame.ValidationResult.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/WordyGame.LetterResult.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/WordyGame.Status.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/class-use/WordyGameTest.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/package-use.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/overview-tree.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/DictionaryService.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/MockDictionaryService.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/Wordly.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/WordyGame.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/WordyGame.ValidationResult.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/WordyGame.LetterResult.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/WordyGame.Status.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/class-use/WordyGameTest.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/package-use.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/overview-tree.html...
   [javadoc] Building index for all classes...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/allclasses-index.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/allpackages-index.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/index-all.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/search.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/index.html...
-  [javadoc] Generating /home/geeg/SWQualityTools/doc/help-doc.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/allclasses-index.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/allpackages-index.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/index-all.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/search.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/index.html...
+  [javadoc] Generating /home/geeg/Wordly/SWQualityTools/doc/help-doc.html...
   [javadoc] 81 warnings
 
 pmd:
      [echo] Running PMD
 net.sourceforge.pmd.ant.internal.PMDTaskImpl - Logging is at INFO
-     [xslt] Processing /home/geeg/SWQualityTools/results/pmd_report.xml to /home/geeg/SWQualityTools/results/pmd_report.html
+     [xslt] Processing /home/geeg/Wordly/SWQualityTools/results/pmd_report.xml to /home/geeg/Wordly/SWQualityTools/results/pmd_report.html
      [xslt] Loading stylesheet pmd-report.xsl
 
 cpd:
@@ -333,7 +333,7 @@ cpd:
       [cpd] Starting to analyze code
       [cpd] No duplicates over 100 tokens found
       [cpd] Generating report
-      [cpd] Done analyzing code; that took 207 milliseconds
+      [cpd] Done analyzing code; that took 199 milliseconds
 
 spotbugs:
      [echo] Running SpotBugs
@@ -344,13 +344,13 @@ spotbugs:
 checkstyle:
      [echo] Running Checkstyle
 [checkstyle] Running Checkstyle 13.3.0 on 5 files
-     [xslt] Processing /home/geeg/SWQualityTools/results/checkstyle_report.xml to /home/geeg/SWQualityTools/results/checkstyle_report.html
+     [xslt] Processing /home/geeg/Wordly/SWQualityTools/results/checkstyle_report.xml to /home/geeg/Wordly/SWQualityTools/results/checkstyle_report.html
      [xslt] Loading stylesheet checkstyle-noframes.xsl
 
 test:
      [echo] Running JUnit with JaCoCo
-    [mkdir] Created dir: /home/geeg/SWQualityTools/results/junit
-    [mkdir] Created dir: /home/geeg/SWQualityTools/results/jacoco
+    [mkdir] Created dir: /home/geeg/Wordly/SWQualityTools/results/junit
+    [mkdir] Created dir: /home/geeg/Wordly/SWQualityTools/results/jacoco
 [jacoco:coverage] Enhancing java with coverage
      [java] 
      [java] Thanks for using JUnit! Support its development at https://junit.org/sponsoring
@@ -359,7 +359,7 @@ test:
      [java] [36m├─[0m [36mJUnit Platform Suite[0m [32m✔[0m
      [java] [36m└─[0m [36mJUnit Jupiter[0m [32m✔[0m
      [java] [36m   └─[0m [36mWordyGameTest[0m [32m✔[0m
-     [java] [36m      ├─[0m [34mtestGetNewWord_returnedWordIsValidAccordingToMock()[0m [32m✔[0m
+     [java] [36m      ├─[0m [31mtestGetNewWord_returnedWordIsValidAccordingToMock()[0m [31m✘[0m [31mexpected: <true> but was: <false>[0m
      [java] [36m      ├─[0m [34mtestValidateGuess_wrongLengthRejectedBeforeAPICall()[0m [32m✔[0m
      [java] [36m      ├─[0m [34mtestEvaluateGuess_correctLetterCorrectPosition()[0m [32m✔[0m
      [java] [36m      ├─[0m [34mtestGetNewWord_doesNotRepeatPreviousWord()[0m [32m✔[0m
@@ -388,7 +388,19 @@ test:
      [java] [36m      ├─[0m [34mtestEvaluateGuess_returnsFiveResults()[0m [32m✔[0m
      [java] [36m      └─[0m [34mtestIsValidLength_emptyStringReturnsFalse()[0m [32m✔[0m
      [java] 
-     [java] Test run finished after 716 ms
+     [java] Failures (1):
+     [java]   JUnit Jupiter:WordyGameTest:testGetNewWord_returnedWordIsValidAccordingToMock()
+     [java]     MethodSource [className = 'WordyGameTest', methodName = 'testGetNewWord_returnedWordIsValidAccordingToMock', methodParameterTypes = '']
+     [java]     => org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+     [java]        org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+     [java]        org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
+     [java]        org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:69)
+     [java]        org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:41)
+     [java]        org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+     [java]        org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:195)
+     [java]        WordyGameTest.testGetNewWord_returnedWordIsValidAccordingToMock(WordyGameTest.java:196)
+     [java] 
+     [java] Test run finished after 807 ms
      [java] [         3 containers found      ]
      [java] [         0 containers skipped    ]
      [java] [         3 containers started    ]
@@ -399,15 +411,15 @@ test:
      [java] [         0 tests skipped         ]
      [java] [        28 tests started         ]
      [java] [         0 tests aborted         ]
-     [java] [        28 tests successful      ]
-     [java] [         0 tests failed          ]
+     [java] [        27 tests successful      ]
+     [java] [         1 tests failed          ]
      [java] 
-[jacoco:report] Loading execution data file /home/geeg/SWQualityTools/results/jacoco/jacoco.exec
+[jacoco:report] Loading execution data file /home/geeg/Wordly/SWQualityTools/results/jacoco/jacoco.exec
 [jacoco:report] Writing bundle 'SampleProj Test Coverage Report' with 6 classes
-[junitreport] Processing /home/geeg/SWQualityTools/results/junit/TESTS-TestSuites.xml to /tmp/null1058018700
+[junitreport] Processing /home/geeg/Wordly/SWQualityTools/results/junit/TESTS-TestSuites.xml to /tmp/null717020739
 [junitreport] Loading stylesheet ile:/usr/share/ant/lib/ant-junit.jar!/org/apache/tools/ant/taskdefs/optional/junit/xsl/junit-frames.xsl
-[junitreport] Transform time: 509ms
-[junitreport] Deleting: /tmp/null1058018700
+[junitreport] Transform time: 453ms
+[junitreport] Deleting: /tmp/null717020739
      [echo] JUnit report: results/junit/index.html
      [echo] JaCoCo report: results/jacoco/index.html
 
@@ -417,12 +429,12 @@ quality:
 all:
 
 BUILD SUCCESSFUL
-Total time: 38 seconds
+Total time: 44 seconds
 build:
 classes
 
 dist:
-SampleProj20260430.jar
+SampleProj20260509.jar
 
 doc:
 allclasses-index.html
